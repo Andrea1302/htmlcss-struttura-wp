@@ -9,7 +9,7 @@
     margin: 5% auto;
     width: 80%;
     /* regole di debug */
-    height: 500px;
+    height: 700px;
     background-color: blue;
 }
 
@@ -49,16 +49,28 @@
 }
 
 .titolo_sezione2{
+    margin-bottom: 10%;
     /* regole di debug  */
-    height: 50px;
-    border: 2px solid white;
+    height: 20%;
+    background-color: deepskyblue;
 }
 .container_secondsection{
     /* regole di debug  */
-    height: 250px;
+    height: 70%;
     background-color: deeppink;
 }
-
+.lati_principale{
+    /* regole di debug  */
+    height: 15%;
+    background-color: dimgray;
+}
+.principale{
+    width: 80%;
+    margin: 0 auto;
+    /* regole di debug  */
+    height: 50%;
+    background-color: lightgrey;
+}
 
 /* footer  */
 .footer{
