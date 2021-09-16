@@ -12,3 +12,39 @@
     height: 500px;
     background-color: blue;
 }
+
+/* Regole generali  */
+.header, .main, .first_msection{
+    margin-bottom: 10px;
+}
+
+/* header  */
+.header{
+    /* regole di debug */
+    height: 50px;
+    background-color: blueviolet;
+}
+
+
+/* main */
+.main{
+     /* regole di debug */
+     background-color: rgb(43, 226, 89);
+}
+.first_msection{
+    height: 150px;
+    background-color: brown;
+}
+.second_msection{
+    height: 150px;
+    background-color: darkolivegreen;
+}
+
+/* footer  */
+.footer{
+     /* regole di debug */
+     height: 50px;
+     background-color: rgb(226, 147, 43);
+}
+
+
