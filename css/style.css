@@ -14,7 +14,7 @@
 }
 
 /* Regole generali  */
-.header, .main, .first_msection{
+.header, .first_msection{
     margin-bottom: 10px;
 }
 
@@ -25,7 +25,7 @@
 } 
 
 /* header  */
-.header{
+header{
     /* regole di debug */
     height: 50px;
     background-color: rgb(219, 103, 219);
@@ -81,7 +81,7 @@
 }
 
 /* footer  */
-.footer{
+footer{
      /* regole di debug */
      height: 50px;
      background-color: rgb(226, 147, 43);
