@@ -18,11 +18,11 @@
     margin-bottom: 10px;
 }
 
-/* .clearfix{
+.clearfix::after{
     content: "";
     display: table;
     clear: both;
-} */
+} 
 
 /* header  */
 .header{
@@ -60,16 +60,26 @@
     background-color: deeppink;
 }
 .lati_principale{
+    float: left;
     /* regole di debug  */
+    width: 20%;
     height: 15%;
     background-color: dimgray;
 }
+/* #left, .lati_principale{
+    float: left;
+}
+#right, .lati_principale{
+    float: left;
+} */
 .principale{
-    width: 80%;
-    margin: 0 auto;
+    
+    margin: 0 5%;
     /* regole di debug  */
+    width: 50%;
     height: 50%;
     background-color: lightgrey;
+    float: left;
 }
 
 /* footer  */
