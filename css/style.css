@@ -18,6 +18,12 @@
     margin-bottom: 10px;
 }
 
+/* .clearfix{
+    content: "";
+    display: table;
+    clear: both;
+} */
+
 /* header  */
 .header{
     /* regole di debug */
@@ -32,13 +38,27 @@
      background-color: rgb(43, 226, 89);
 }
 .first_msection{
+    /* regole di debug  */
     height: 150px;
     background-color: brown;
 }
 .second_msection{
-    height: 150px;
+    /* regole di debug  */
+    height: 300px;
     background-color: darkolivegreen;
 }
+
+.titolo_sezione2{
+    /* regole di debug  */
+    height: 50px;
+    border: 2px solid white;
+}
+.container_secondsection{
+    /* regole di debug  */
+    height: 250px;
+    background-color: deeppink;
+}
+
 
 /* footer  */
 .footer{
