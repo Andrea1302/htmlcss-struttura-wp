@@ -1,0 +1,109 @@
+/* Impostazioni Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.container_principale{
+    margin: 5% auto;
+    width: 80%;
+    background-image: url('img/unnamed.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* regole di debug */
+   border-radius: 3%;
+}
+
+
+/* Regole generali  */
+.header, .main, .first_msection{
+    margin-bottom: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+body{
+    background-color:rgb(20, 122, 240,0.7);
+}
+
+/* header  */
+.header img{
+    float: left;
+    width: 60%;
+}
+.alghero{
+    float: left;
+}
+#alghero1{
+    width: 30%;
+    font-size: 80px;
+    font-weight: bolder;
+    font-style: italic;
+    float:left;
+    margin-left: 1%;
+    
+}
+.scopri{
+    float: left;
+    margin: 1% 1%;
+    background-color: rgb(44, 97, 196);
+    color: white;
+    border-radius: 50%;
+    padding: 6px 6px;
+    text-decoration: none;
+    
+}
+
+
+/* main */
+
+.first_msection{
+    /* regole di debug  */
+   
+}
+
+
+.titolo_sezione2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+    /* regole di debug  */
+  
+}
+.second_msection{
+   margin-left: 10px;
+    
+}
+.lati_principale{
+    float: left;
+    width: 20%;
+    /* regole di debug  */
+
+}
+
+
+.principale{
+    width: 50%;
+    margin: 0 5%;
+    float: left;
+    /* regole di debug  */
+    
+    
+    
+}
+
+/* footer  */
+.footer{
+     font-size: 30px;
+     font-weight: bolder;
+     text-align: center;
+     margin-top: 20px;
+}
+
+
