@@ -1,0 +1,14 @@
+/* Impostazioni Generali */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container_principale{
+    margin: 5% auto;
+    width: 80%;
+    /* regole di debug */
+    height: 500px;
+    background-color: blue;
+}
