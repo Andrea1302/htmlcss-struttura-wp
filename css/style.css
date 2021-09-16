@@ -58,8 +58,9 @@
 }
 .lati_principale{
     float: left;
-    /* regole di debug  */
     width: 20%;
+    /* regole di debug  */
+    
     height: 100%;
     background-color: dimgray;
 }
@@ -70,10 +71,10 @@
     float: left;
 } */
 .principale{
-    
+    width: 50%;
     margin: 0 5%;
     /* regole di debug  */
-    width: 50%;
+    
     height: 100%;
     background-color: lightgrey;
     float: left;
